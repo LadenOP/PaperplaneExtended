@@ -44,9 +44,7 @@ CONFIG_CHECK = os.environ.get(
     "", None)
 
 if CONFIG_CHECK:
-    LOGS.info(
-        ""
-    )
+    LOGS.info()
     quit(1)
 
 # Telegram App KEY and HASH
